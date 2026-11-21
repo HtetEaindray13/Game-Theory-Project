@@ -94,7 +94,7 @@ class MusicManager:
             return
         try:
             pygame.mixer.music.load(settings.MUSIC_PATH)
-            pygame.mixer.music.set_volume(0.34)
+            pygame.mixer.music.set_volume(0.99)
             pygame.mixer.music.play(-1)
         except pygame.error:
             self.available = False
